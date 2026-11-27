@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:FatturaElettronica xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" versione="FPR12">
+  <FatturaElettronicaHeader>
+    <DatiTrasmissione>
+      <IdTrasmittente><IdPaese>IT</IdPaese><IdCodice>SMPCHR85M41X999B</IdCodice></IdTrasmittente>
+      <ProgressivoInvio>00002</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>0000000</CodiceDestinatario>
+    </DatiTrasmissione>
+    <CedentePrestatore>
+      <DatiAnagrafici>
+        <IdFiscaleIVA><IdPaese>IT</IdPaese><IdCodice>01234560009</IdCodice></IdFiscaleIVA>
+        <CodiceFiscale>SMPCHR85M41X999B</CodiceFiscale>
+        <Anagrafica><Nome>Chiara</Nome><Cognome>Esempio</Cognome></Anagrafica>
+        <RegimeFiscale>RF19</RegimeFiscale>
+      </DatiAnagrafici>
+      <Sede><Indirizzo>Via del Modello 3</Indirizzo><CAP>37100</CAP>
+        <Comune>Verona</Comune><Provincia>VR</Provincia><Nazione>IT</Nazione></Sede>
+    </CedentePrestatore>
+    <CessionarioCommittente>
+      <DatiAnagrafici>
+        <CodiceFiscale>PRVMRC90A01X999S</CodiceFiscale>
+        <Anagrafica><Nome>Marco</Nome><Cognome>Prova</Cognome></Anagrafica>
+      </DatiAnagrafici>
+      <Sede><Indirizzo>Via Esempio 3</Indirizzo><CAP>37121</CAP><Comune>Verona</Comune>
+        <Provincia>VR</Provincia><Nazione>IT</Nazione></Sede>
+    </CessionarioCommittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody>
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD01</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2026-10-12</Data>
+        <Numero>2/2026</Numero>
+        <DatiBollo><BolloVirtuale>SI</BolloVirtuale><ImportoBollo>2.00</ImportoBollo></DatiBollo>
+        <ImportoTotaleDocumento>127.00</ImportoTotaleDocumento>
+        <Causale>Operazione effettuata ai sensi dell'art. 1, commi da 54 a 89, L. 190/2014, regime forfettario.</Causale>
+        <Causale>Compenso non soggetto a ritenuta d'acconto ai sensi dell'art. 1, c. 67, L. 190/2014.</Causale>
+      </DatiGeneraliDocumento>
+    </DatiGenerali>
+    <DatiBeniServizi>
+      <DettaglioLinee><NumeroLinea>1</NumeroLinea><Descrizione>Prima visita osteopatica</Descrizione>
+        <Quantita>1.00</Quantita><PrezzoUnitario>70.00</PrezzoUnitario><PrezzoTotale>70.00</PrezzoTotale>
+        <AliquotaIVA>0.00</AliquotaIVA><Natura>N2.2</Natura></DettaglioLinee>
+      <DettaglioLinee><NumeroLinea>2</NumeroLinea><Descrizione>Trattamento osteopatico</Descrizione>
+        <Quantita>1.00</Quantita><PrezzoUnitario>55.00</PrezzoUnitario><PrezzoTotale>55.00</PrezzoTotale>
+        <AliquotaIVA>0.00</AliquotaIVA><Natura>N2.2</Natura></DettaglioLinee>
+      <DettaglioLinee><NumeroLinea>3</NumeroLinea><Descrizione>Rimborso imposta di bollo</Descrizione>
+        <Quantita>1.00</Quantita><PrezzoUnitario>2.00</PrezzoUnitario><PrezzoTotale>2.00</PrezzoTotale>
+        <AliquotaIVA>0.00</AliquotaIVA><Natura>N2.2</Natura></DettaglioLinee>
+      <DatiRiepilogo><AliquotaIVA>0.00</AliquotaIVA><Natura>N2.2</Natura>
+        <ImponibileImporto>127.00</ImponibileImporto><Imposta>0.00</Imposta>
+        <RiferimentoNormativo>Operazione in franchigia da IVA, art. 1 c. 54-89 L. 190/2014</RiferimentoNormativo></DatiRiepilogo>
+    </DatiBeniServizi>
+    <DatiPagamento>
+      <CondizioniPagamento>TP02</CondizioniPagamento>
+      <DettaglioPagamento><ModalitaPagamento>MP01</ModalitaPagamento><ImportoPagamento>127.00</ImportoPagamento></DettaglioPagamento>
+    </DatiPagamento>
+  </FatturaElettronicaBody>
+</p:FatturaElettronica>

@@ -1,0 +1,70 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Length 852 >>
+stream
+BT
+/F1 11 Tf
+16 TL
+56 780 Td
+/F1 20 Tf
+(DATI DI PROVA) Tj T*
+/F1 14 Tf
+(Modulo firmato di esempio per la demo) Tj T*
+/F1 11 Tf
+() Tj T*
+/F1 11 Tf
+(Questo documento e' inventato: rappresenta un modulo cartaceo firmato) Tj T*
+/F1 11 Tf
+(e poi caricato nel programma. Non contiene dati di persone reali e non) Tj T*
+/F1 11 Tf
+(ha alcun valore legale.) Tj T*
+/F1 11 Tf
+() Tj T*
+/F1 11 Tf
+(Informativa sul trattamento dei dati personali: presa visione.) Tj T*
+/F1 11 Tf
+(Consenso informato al trattamento osteopatico di persona minore.) Tj T*
+/F1 11 Tf
+() Tj T*
+/F1 11 Tf
+(Firma del genitore o tutore: ______________________________) Tj T*
+/F1 11 Tf
+(Data: ____________________   Luogo: ____________________) Tj T*
+/F1 11 Tf
+() Tj T*
+/F1 10 Tf
+(Testo di esempio, da far verificare prima dell'uso con pazienti reali.) Tj T*
+/F1 20 Tf
+(DATI DI PROVA) Tj T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Title (Modulo firmato di esempio) /Producer (seed demo) >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000338 00000 n 
+0000001241 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R /Info 6 0 R >>
+startxref
+1319
+%%EOF

@@ -1,0 +1,14 @@
+version: 2
+# Security updates only: GitHub opens a pull request when a dependency has a
+# known vulnerability. Routine version bumps are turned off (limit 0).
+updates:
+  - package-ecosystem: "npm"
+    directory: "/web"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 0
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 0
